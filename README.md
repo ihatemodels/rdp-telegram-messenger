@@ -4,8 +4,7 @@
 
 > **Аfter 1 hour of headache and trying different methods, I decided to create the repo**
 
-## Credits:   
-**:point_down:**  
+## Credits:  **:point_down:**  
 **[StackOverFlow](https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id)**
 
 ## Set-Up 
@@ -52,9 +51,9 @@ Move-Item rdp-telegram.ps1 C:\Where-You-Want
 ### Set-Up The Task
 - **In Create a Basic Task:**   
         Name: Set your task name
-- **In Action**
+- **In Action:**  
         Program/Script: **powershell**  
         Add arguments(optional): **The path to rdp-telegram-messenger**   "C:\rdp-telegram-messenger.ps1"
-- **Save the task**  
+- **Save the task!**  
 
 ### Happy Messegaes
