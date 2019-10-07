@@ -31,13 +31,12 @@
 
 ```git
 git clone https://github.com/ihatemodels/rdp-telegram-messenger
-```
-```powershell
+
 Set-Location -Path .\rdp-telegram-messenger\
 ```
 **Open your favourite text editor**  
-**--> Edit line 10 and 11 with your "chatId" and botId**
 
+**--> Edit line 10 and 11 with your "chatId" and "botId"**
 ```powershell
 Move-Item rdp-telegram.ps1 C:\Where-You-Want
 ```
@@ -51,11 +50,11 @@ Move-Item rdp-telegram.ps1 C:\Where-You-Want
 > Right-Click on the event - **Select attach task to this event**
 
 ### Set-Up The Task
-- **In Create a Basic Task:** 
+- **In Create a Basic Task:**   
         Name: Set your task name
 - **In Action**
         Program/Script: **powershell**  
         Add arguments(optional): **The path to rdp-telegram-messenger**   "C:\rdp-telegram-messenger.ps1"
-- **Save tthe task**  
+- **Save the task**  
 
 ### Happy Messegaes
